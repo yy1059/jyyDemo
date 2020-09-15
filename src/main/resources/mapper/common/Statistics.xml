@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.modules.common.dao.StatisticsDao">
+
+
+    <select id="list" resultType="com.demo.modules.sys.vo.StatisticsVO">
+        SELECT
+            u.`id`,
+            u.`name` studentName,
+            u.num,
+            tu.achievement,
+            t.type
+        FROM
+            t_user AS u
+            LEFT JOIN t_type_user AS tu ON tu.user_id = u.id
+            LEFT JOIN t_coures c ON c.id = tu.course_id
+            LEFT JOIN t_type t ON t.id = tu.type_id
+        WHERE
+            c.`id` = #{classId}
+        ORDER BY
+            tu.achievement DESC
+    </select>
+</mapper>

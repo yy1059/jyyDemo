@@ -1,0 +1,354 @@
+body {
+    font-family: "Microsoft YaHei", serif !important;
+}
+
+.box {
+    position: relative;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.arrow {
+    display: inline-flex;
+    width: 80px;
+    margin-top: 15px;
+    height: 10px;
+}
+
+.step_text {
+    color: #4f4f4f;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.step_text_date {
+    color: #909399;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.img_style {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.in_audit_text {
+    color: #ff8400;
+}
+
+.audited_text {
+    color: #4db821;
+}
+
+.el-range-editor--small .el-range-input {
+    font-size: 12px;
+    color: #6C757D;
+}
+
+.el-range-editor--small .el-range-separator {
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.el-date-editor .el-range-separator {
+    padding: 0 5px;
+    width: 5%;
+    color: #1D2024;
+}
+
+.el-cascader .el-input .el-input__inner {
+    font-size: 12px;
+    text-overflow: ellipsis;
+    color: #6C757D;
+}
+
+.el-input--small .el-input__inner {
+    font-size: 12px;
+    color: #6C757D;
+    height: 30px;
+    line-height: 30px;
+}
+
+.el-range-editor--small .el-range-input {
+    font-size: 12px;
+    color: #6C757D;
+}
+
+.el-range-editor--small .el-range-separator {
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.el-date-editor .el-range-separator {
+    padding: 0 5px;
+    width: 5%;
+    color: #1D2024;
+}
+
+.el-cascader .el-input .el-input__inner {
+    font-size: 12px;
+    text-overflow: ellipsis;
+    color: #6C757D;
+}
+
+.el-input--small .el-input__inner {
+    font-size: 12px;
+    color: #6C757D;
+    height: 30px;
+    line-height: 32px;
+}
+
+.el-form-item__content {
+    margin-left: 10px !important;
+}
+
+.timeStatus .el-form-item__error {
+    left: 140px;
+}
+
+.destroy-input {
+    width: 76%;
+}
+
+.lose-input {
+    width: 76%;
+}
+
+.el-cascader .el-input {
+    width: 100%;
+}
+
+.el-input-number__increase {
+    padding: 12px;
+}
+
+.el-input-number__decrease {
+    padding: 12px;
+}
+
+.el-input {
+    width: 80%;
+}
+
+.el-input-number .el-input {
+    width: auto;
+}
+
+body .el-table th.gutter {
+    display: table-cell !important;
+}
+
+#transfer-dialog .el-form-item__error {
+    left: 57px;
+}
+
+#transfer-dialog .el-input {
+    width: 100%;
+}
+
+#transfer-dialog .el-form {
+    margin-top: 16px;
+}
+
+.el-form-item__error {
+    left: 90px;
+}
+
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+}
+
+.form-table-head {
+    font-size: x-small;
+}
+
+.form-table-column {
+    font-size: x-small;
+}
+
+.apply-info-wrapper {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 255);
+}
+
+.apply-info-title {
+    text-align: center;
+    font-size: large;
+    padding-right: 18px;
+}
+
+.apply-info-wrapper .el-form-item__label {
+    font-weight: bold;
+}
+
+.apply-table {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.apply-table .title {
+    color: #a2a2a2;
+    font-size: 16px;
+    line-height: 2.5;
+    text-align: right;
+}
+
+.apply-table .content {
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.content-margin {
+    margin-right: 220px;
+}
+
+.fill {
+    object-fit: fill;
+}
+
+.el-table--fit {
+    border-radius: 1%;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.el-table--border td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left ~ .el-table__fixed {
+    border-right: 0 solid #EBEEF5;
+}
+
+.el-table .cell, .el-table th div, .el-table--border td:first-child .cell, .el-table--border th:first-child .cell {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.el-table_1_column_2 .el-table-column--selection .is-leaf .cell {
+    padding-left: 0;
+    padding-right: 0;
+    /*left: 30px!important;*/
+}
+
+.el-table_1_column_1 .el-table-column--selection .is-leaf {
+    /*left: 30px!important;*/
+}
+
+
+.el-table-column--selection .cell {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.el-button .el-button--text .el-button--medium {
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+/**详情dialog**/
+.info-wrapper {
+    width: 100%;
+}
+
+.info-title {
+    text-align: left;
+    font-size: medium;
+}
+
+.info-table {
+    margin-bottom: 10px;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+.info-table span {
+    display: inline-block;
+    max-width: 200px;
+    min-width: 130px;
+}
+
+.el-dialog__body {
+    padding: 0 20px;
+}
+
+.capital-property {
+    color: #a2a2a2;
+    font-size: 16px;
+    vertical-align: top;
+    width: 85px;
+}
+
+.capital-property1 {
+    color: #a2a2a2;
+    font-size: 16px;
+    vertical-align: top;
+    width: 60px;
+}
+
+.capital-interval{
+    width: 80px !important;
+}
+
+.capital-content {
+    font-size: 16px;
+    width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.el-button--warning {
+    background-color: #ff8400;
+    border-color: #ff8400;
+}
+
+.log-context {
+    font-size: 16px;
+}
+
+.log-wrapper {
+    min-height: 50px;
+    padding-bottom: 30px;
+}
+
+.log-wrapper button {
+    color: #69B2FF;
+    border-width: 0;
+    text-decoration: underline;
+    padding: 0 !important;
+}
+
+.log-timeline .el-timeline {
+    padding-left: 0 !important;
+}
+
+.log-type {
+    display: inline-block;
+    min-width: 30%;
+}
+
+.log-timeline button {
+    color: #69B2FF;
+    border-width: 0;
+    padding-left: 23px;
+}
+
+/*级联选择器输入框光标*/
+.el-cascader:not(.is-disabled):hover .el-input__inner {
+    cursor: text;
+}
+
